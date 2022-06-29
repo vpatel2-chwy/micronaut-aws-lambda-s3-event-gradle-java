@@ -2,7 +2,7 @@
 
 In this [sample project](https://guides.micronaut.io/latest/micronaut-aws-lambda-s3-event-gradle-java.html) we have added a custom serializer to mitigate the `jackson deserialization error`. Micronaut dependency injection works just fine with SQS, and standard lambda request handlers - but gives `deserialization errors` in the case of S3Events.
 
-Please refere to `HackyMicronautRequestHandler` in contrast to `MicronautRequestHandler` to see the work-around with our custom serialization.
+Please refer to `HackyMicronautRequestHandler` in contrast to `MicronautRequestHandler` to see the work-around with our custom serialization.
 
 ## Micronaut 3.5.2 Documentation
 
