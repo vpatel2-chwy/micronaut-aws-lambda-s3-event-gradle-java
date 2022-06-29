@@ -1,0 +1,6 @@
+applicationType: function
+defaultPackage: example.micronaut
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, aws-lambda, aws-lambda-s3-event-notification, aws-v2-sdk, gradle, jackson-databind, java, junit, logback, micronaut-build, readme, s3, shade, thumbnailator, yaml]

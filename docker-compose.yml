@@ -1,0 +1,12 @@
+version: '2.4'
+services:
+  micronaut:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: "example.micronaut.HackyMicronautRequestHandler::handleRequest"
+    ports:
+      - '9020:8080'
+    environment:
+      - AWS_REGION=us-east-1
+
